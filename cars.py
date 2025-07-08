@@ -29,7 +29,7 @@ y_pred = model.predict(X_test)
 print("Slope:", model.coef_[0])
 print("Intercept:", model.intercept_)
 print("R² Score:", r2_score(y_test, y_pred))
-print("Again Just Chill")
+print("Again Just Chill....")
 
 # Visualize
 plt.scatter(X_test, y_test, color='blue', label='Actual')
